@@ -1,0 +1,2 @@
+This a clone of the google.com homepage. In this project,I demonstrate basic HTML and CSS skills here.
+From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)

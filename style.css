@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+nav ul {
+    float: right;
+    margin: 20px;
+}
+nav ul li a{
+    color: black;
+}
+button[name=sign-in] {
+    padding: 5px;
+    color: white;
+    background-color: rgb(159, 188, 241);
+}
+.inline li{
+    display: inline;
+    padding: 4px;
+}
+.inline a{
+    text-decoration-line: none;
+}
+.inline a:hover {
+    text-decoration-line: underline;
+}
+#logocontainer {
+    position: absolute;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 200px;
+}
+#formcontainer {
+    position: absolute;
+    width: 530px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 320px;
+}
+input[type=url] {
+    width: 100%;
+    padding: 13px;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+    background-color: white;
+    background: url("icons/googlemic.png") no-repeat;
+    background-size: 25px 25px;
+    background-position: 95% 7.7px;  
+}
+input[type=url]:hover {
+    border: 3px solid whitesmoke;
+    background-color: white;
+}
+#mic{
+    float: right;
+    margin: -29px; 
+}
+#submitbuttons {
+    position: absolute;
+    left: 135px;
+    top: 70px;
+}
+input[type=submit] {
+    padding: 10px;
+    margin: 5px;
+    color:  rgb(105, 107, 105);
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+input[type=submit]:hover {
+    color:  rgb(15, 15, 15);
+    background-color: white;
+    border: 1px solid rgb(226, 221, 221);
+}
+#offeredlist {
+    position: absolute;
+    left: 88px;
+    top: 140px;
+    /*font-size: small; */
+}
+#offeredlist a{
+    color: rgb(20, 20, 168);
+}
+footer {
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    bottom: 0;
+    background-color: whitesmoke;
+    color:  rgb(125, 128, 125)
+}
+#para {
+    
+    padding: 17px 17px 17px 30px;
+    border: 1px solid gainsboro;
+}
+#divide {
+    float: right;
+}
+#footerlinks {
+    margin: 15px;
+}
+#footerlinks a {
+    color:  rgb(125, 128, 125);
+    padding: 10px;
+}
